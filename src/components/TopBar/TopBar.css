@@ -1,0 +1,67 @@
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(109, 245, 47, 0.2);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Reenie Beanie', cursive;
+    
+    z-index: 999;
+}
+
+.top-left,
+.top-right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-icon {
+  font-size: 30px;
+  margin-right: 40px;
+  color: #444;
+  cursor: pointer;
+}
+
+.top-center {
+  flex: 6;
+}
+
+.top-list {
+  display: flex;
+  /* justify-content:center; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-list-item {
+  margin-right: 50px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.top-list-item:hover{
+    color: gray;
+}
+
+.top-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+ 
+}
+
+.top-search-icon {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: #666;
+  cursor: pointer;
+}
